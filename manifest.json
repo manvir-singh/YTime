@@ -1,0 +1,19 @@
+{
+  "name": "YTime",
+  "short_name": "YTime",
+  "version": "0.2",
+  "description": "",
+  "content_scripts": [
+    {
+      "matches": ["https://www.youtube.com/watch*"],
+      "js": ["content.js"]
+    }
+  ],
+  "web_accessible_resources": [
+    "script.js"
+  ],
+  "icons": {
+	"128": "128.png"
+  },
+  "manifest_version": 2
+}
